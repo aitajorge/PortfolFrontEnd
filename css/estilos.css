@@ -145,8 +145,8 @@ nav a:hover{
 }
 
 .px-2 {
-    padding-left: ($spacer * .5) !important;
-    padding-right: ($spacer * .5) !important;
+    padding-left: 0,5px;
+    padding-right: 0.5px;
   }
 
 
@@ -166,12 +166,12 @@ nav a:hover{
 }
 
 @media screen and (min-width: 700px) {
-    .hero-inferior-imagen: {
+    .hero-inferior-imagen {
         max-width: 600px;
     } 
 }
 
-@media (min-width: 500px) { /* si desea, cambiar tamaño de la pantalla en esta línea */
+@media (min-width: 500px) {             /* si desea, cambiar tamaño de la pantalla en esta línea */
     nav {
         height: 45px !important;            /* Cambia el valor de lo que quieres */
         line-height: 45px !important;       /* Cambia el valor de lo que quieres */
